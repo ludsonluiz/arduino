@@ -66,7 +66,7 @@ div.rele2_desligado {
     border: none;
 	background: url(lampada_desligada.png) no-repeat left top;
 }
-div.rele3_ligado {
+/*div.rele3_ligado {
     position: absolute;
     right: -110px;
     top: 387px;
@@ -84,7 +84,7 @@ div.rele3_desligado {
     height: 206px;
     border: none;
 	background: url(lampada_desligada.png) no-repeat left top;
-}
+}*/
 
 #div1 {
 	position: absolute;
@@ -105,7 +105,7 @@ div.rele3_desligado {
     width: 350px;
     height: 150px; 
 }
-#div3 {
+/*#div3 {
 	position: absolute;
 	right: 285px;
 	top: 355px;
@@ -113,7 +113,7 @@ div.rele3_desligado {
     border: 2px solid #000000;
     width: 550px;
     height: 250px; 
-}
+}*/
 
 #botao{
     position: absolute;
