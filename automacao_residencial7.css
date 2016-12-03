@@ -1,0 +1,470 @@
+/* 
+    CSS Projeto Automacao Residencial
+    FILIPEFLOP Componentes Eletronicos
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding-top: 30px;
+    position: relative;
+    width: 10px;
+    height: 800px;
+	margin-right: auto;
+	margin-top: 10;
+	margin-left: 0;
+        font-size: 27px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+		
+}
+
+div.rele1_ligado {
+    position: absolute;
+    right: -110px;
+    top: 210px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_ligada2.png) no-repeat left top;
+	
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: -110px;
+    top: 210px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+
+div.rele2_ligado {
+    position: absolute;
+    right: -110px;
+    top: 310px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+    background: url(lampada_ligada2.png) no-repeat left top;
+}
+
+div.rele2_desligado {
+    position: absolute;
+    right: -110px;
+    top: 310px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+
+div.rele3_ligado {
+    position: absolute;
+    right: -110px;
+    top: 410px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+    background: url(lampada_ligada2.png) no-repeat left top;
+}
+
+div.rele3_desligado {
+    position: absolute;
+    right: -110px;
+    top: 410px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+div.rele4_ligado {
+    position: absolute;
+    right: -110px;
+    top: 630px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_ligada2.png) no-repeat left top;
+	
+}
+
+div.rele4_desligado {
+    position: absolute;
+    right: -110px;
+    top: 630px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+
+div.rele5_ligado {
+    position: absolute;
+    right: -110px;
+    top: 730px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+    background: url(lampada_ligada2.png) no-repeat left top;
+}
+
+div.rele5_desligado {
+    position: absolute;
+    right: -110px;
+    top: 730px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+
+div.rele6_ligado {
+    position: absolute;
+    right: -110px;
+    top: 830px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+    background: url(lampada_ligada2.png) no-repeat left top;
+}
+
+div.rele6_desligado {
+    position: absolute;
+    right: -110px;
+    top: 830px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	left: 410 ;
+	background: url(lampada_desligada2.png) no-repeat left top;
+}
+
+
+#div1 {
+	position: absolute;
+	right: 85px;
+	top: 200px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10;
+}
+
+#div2 {
+	position: absolute;
+	right: 85px;
+	top: 300px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10; 
+}
+#div3 {
+	position: absolute;
+	right: 85px;
+	top: 400px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10; 
+}
+#div11 {
+	position: absolute;
+	right: 85px;
+	top: 630px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10;
+}
+
+#div21 {
+	position: absolute;
+	right: 85px;
+	top: 730px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10; 
+}
+#div31 {
+	position: absolute;
+	right: 85px;
+	top: 830px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    width: 380px;
+    height: 75px; 
+	left: 10; 
+}
+#div100 {
+	position: absolute;
+	right: 85px;
+	top: 150px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 500px;
+    height: 380px; 
+	left : 0;
+}
+#div200 {
+	position: absolute;
+	right: 85px;
+	top: 580px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 500px;
+    height: 380px; 
+	left : 0;
+}
+
+#botao{
+    position: absolute;
+    right: 230px;
+    top: 210;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+	
+}
+
+.botao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_2{
+    position: absolute;
+    right: 230px;
+    top: 310px;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+}
+
+.botao_2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao_2:active {
+	position:relative;
+	top:1px;
+}
+#botao_3{
+    position: absolute;
+    right: 230px;
+    top: 410px;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+}
+
+.botao_3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao_3:active {
+	position:relative;
+	top:1px;
+}
+#botao_4{
+    position: absolute;
+    right: 230px;
+    top: 410px;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+}
+
+.botao_4 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao_4:active {
+	position:relative;
+	top:1px;
+}
+#botao_5{
+    position: absolute;
+    right: 230px;
+    top: 410px;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+}
+
+.botao_5 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao_5:active {
+	position:relative;
+	top:1px;
+}
+#botao_6{
+    position: absolute;
+    right: 230px;
+    top: 410px;
+	 width: 100px;
+    height: 156px;
+	left : 15;
+}
+
+.botao_6 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+}.botao_6:active {
+	position:relative;
+	top:1px;
+}
